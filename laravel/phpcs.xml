@@ -15,4 +15,8 @@
     <exclude-pattern>/server.php</exclude-pattern>
     <exclude-pattern>/app/Console/Kernel.php</exclude-pattern>
     <exclude-pattern>/resources/js/</exclude-pattern>
+
+    <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
+        <exclude-pattern>/database/migrations</exclude-pattern>
+    </rule>
 </ruleset>
