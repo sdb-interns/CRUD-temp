@@ -38,10 +38,10 @@ class UserController extends Controller
     {
         $user = User::find($id);
 
-        return view('user.edit',compact('user'));
+        return view('user.edit', compact('user'));
     }
 
-    public function update(Request $request,$id)
+    public function update(Request $request, $id)
     {
         $user = User::find($id);
         $user->update($request->all());
@@ -49,7 +49,7 @@ class UserController extends Controller
         return redirect()->route('user.index');
     }
 
-    public function delete($id)
+    public function delete($id): \Illuminate\Http\RedirectResponse
     {
         $user = User::find($id);
         $user->delete();

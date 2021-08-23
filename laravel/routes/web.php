@@ -23,3 +23,10 @@ Route::post('user/store','UserController@store')->name('user.store');
 Route::get('user/edit/{id}','UserController@edit')->name('user.edit');
 Route::post('user/update/{id}','UserController@update')->name('user.update');
 Route::delete('user/delete/{id}','UserController@delete')->name('user.delete');
+
+Route::get('post/index','PostController@index')->name('post.index');
+Route::get('post/create','PostController@create')->name('post.create');
+Route::post('post/store','PostController@store')->name('post.store');
+Route::get('post/edit/{id}','PostController@edit')->name('post.edit');
+Route::post('post/update/{id}','PostController@update')->name('post.update');
+Route::delete('post/delete/{id}','PostController@delete')->name('post.delete');
