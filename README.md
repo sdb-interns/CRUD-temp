@@ -64,7 +64,6 @@ cp ./laravel/.env.example ./laravel/.env # 必要なものを設定
 make init
 ```
 全てのコンテナが立ち上がって、開発用のデータベースのcreate、migrate、seedまで完了する。
-[127.0.0.1:48080](http://127.0.0.1:48080)これで表示されるはず。(`php artisan serve`はもう使わない。)
 
 ### 作業終了時
 ```bash
