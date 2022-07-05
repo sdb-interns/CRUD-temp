@@ -46,7 +46,7 @@ echo "export DOCKER_CONTENT_TRUST=1" >> ~/.bashrc
 
 ③clone
 ```bash
-git clone git@github.com:sdb-interns/CRUD-temp.git practice-crud-temp
+git clone https://github.com/sdb-interns/CRUD-temp.git practice-crud-temp
 ```
 
 
