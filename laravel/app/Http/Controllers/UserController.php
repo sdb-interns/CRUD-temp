@@ -6,8 +6,6 @@ use Illuminate\Http\Request;
 use App\Models\User;//todo:ここでUserモデルを使うと宣言
 use Illuminate\Support\Facades\Hash;
 
-
-
 class UserController extends Controller
 {
     //
@@ -15,7 +13,7 @@ class UserController extends Controller
     {
         $users = User::all();
         //todo:ここでUserモデルを使ってデータベースから情報を取得
-        return view('user.index',compact('users'));
+        return view('user.index', compact('users'));
     }
 
     public function create()
@@ -56,5 +54,4 @@ class UserController extends Controller
 
         return redirect()->route('user.index');
     }
-
 }
