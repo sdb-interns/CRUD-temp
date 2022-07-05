@@ -46,9 +46,9 @@ echo "export DOCKER_CONTENT_TRUST=1" >> ~/.bashrc
 
 ③clone
 ```bash
-git clone git@github.com:sdb-interns/your-project-name.git
+git clone git@github.com:sdb-interns/CRUD-temp.git practice-crud-temp
 ```
-このyour-project-nameには自分のプロジェクトを指定してね。
+
 
 ④環境変数
 ```
