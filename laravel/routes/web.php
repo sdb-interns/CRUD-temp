@@ -31,11 +31,4 @@ Route::middleware('auth')->group(function () {
     Route::get('user/edit/{id}', [UserController::class,'edit'])->name('user.edit');
     Route::post('user/update/{id}', [UserController::class,'update'])->name('user.update');
     Route::delete('user/delete/{id}', [UserController::class,'delete'])->name('user.delete');
-
-    Route::get('post/index', [PostController::class,'index'])->name('post.index');
-    Route::get('post/create', [PostController::class,'create'])->name('post.create');
-    Route::post('post/store', [PostController::class,'store'])->name('post.store');
-    Route::get('post/edit/{id}', [PostController::class,'edit'])->name('post.edit');
-    Route::post('post/update/{id}', [PostController::class,'update'])->name('post.update');
-    Route::delete('post/delete/{id}', [PostController::class,'delete'])->name('post.delete');
 });

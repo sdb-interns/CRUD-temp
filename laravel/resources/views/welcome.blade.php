@@ -50,9 +50,6 @@
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <a href="{{route('user.index')}}"><h3 class="dark:text-white">ユーザー一覧</h3></a>
                 </div>
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <a href="{{route('post.index')}}"><h3 class="dark:text-white">ポスト一覧</h3></a>
-                </div>
             </div>
         </div>
     </body>

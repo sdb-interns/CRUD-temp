@@ -10,9 +10,6 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{route('user.index')}}">ユーザー一覧へ</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{route('post.index')}}">投稿一覧へ</a>
-                    </li>
                 </ul>
             </div>
         </div>
